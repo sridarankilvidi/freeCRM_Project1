@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite]">
+  <test name="TestFreeCRM_BDD(failed)">
+    <classes>
+      <class name="freeCRM_Cucumber_BDD_Test.testLoginPage">
+        <methods>
+          <include name="testLogin" invocation-numbers="1"/>
+          <include name="initLoginPage"/>
+          <include name="tearDownLP"/>
+        </methods>
+      </class> <!-- freeCRM_Cucumber_BDD_Test.testLoginPage -->
+    </classes>
+  </test> <!-- TestFreeCRM_BDD(failed) -->
+</suite> <!-- Failed suite [Suite] -->

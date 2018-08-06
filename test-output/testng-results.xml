@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+    <line>
+      <![CDATA[New contact form page is displayed successfully!]]>
+    </line>
+    <line>
+      <![CDATA[New contact is created successfully!:Mr. vasanth sridaran]]>
+    </line>
+    <line>
+      <![CDATA[New contact is created successfully!:Dr. vijay kilvidi]]>
+    </line>
+    <line>
+      <![CDATA[New contact is created successfully!:Mrs. first last]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of CRM application]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69672" started-at="2018-08-21T22:54:22Z" finished-at="2018-08-21T22:55:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69672" started-at="2018-08-21T22:54:22Z" finished-at="2018-08-21T22:55:32Z">
+      <class name="freeCRM_Cucumber_BDD_Test.testNewContactsPage">
+        <test-method status="PASS" signature="newContactPageSetup()[pri:0, instance:freeCRM_Cucumber_BDD_Test.testNewContactsPage@4cf777e8]" name="newContactPageSetup" is-config="true" duration-ms="20638" started-at="2018-08-21T18:54:22Z" finished-at="2018-08-21T18:54:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newContactPageSetup -->
+        <test-method status="PASS" signature="testClickOnNewContactsLink()[pri:2, instance:freeCRM_Cucumber_BDD_Test.testNewContactsPage@4cf777e8]" name="testClickOnNewContactsLink" duration-ms="5744" started-at="2018-08-21T18:54:43Z" finished-at="2018-08-21T18:54:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New contact form page is displayed successfully!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClickOnNewContactsLink -->
+        <test-method status="PASS" signature="testCreateNewContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:freeCRM_Cucumber_BDD_Test.testNewContactsPage@4cf777e8]" name="testCreateNewContacts" duration-ms="10755" started-at="2018-08-21T18:54:49Z" data-provider="getCRMTestData" finished-at="2018-08-21T18:55:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vasanth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sridaran]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ecom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[New contact is created successfully!:Mr. vasanth sridaran]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateNewContacts -->
+        <test-method status="PASS" signature="testCreateNewContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:freeCRM_Cucumber_BDD_Test.testNewContactsPage@4cf777e8]" name="testCreateNewContacts" duration-ms="10662" started-at="2018-08-21T18:55:00Z" data-provider="getCRMTestData" finished-at="2018-08-21T18:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kilvidi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clinic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[New contact is created successfully!:Dr. vijay kilvidi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateNewContacts -->
+        <test-method status="PASS" signature="testCreateNewContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:freeCRM_Cucumber_BDD_Test.testNewContactsPage@4cf777e8]" name="testCreateNewContacts" duration-ms="10652" started-at="2018-08-21T18:55:11Z" data-provider="getCRMTestData" finished-at="2018-08-21T18:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[first]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[last]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[self]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[New contact is created successfully!:Mrs. first last]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateNewContacts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:freeCRM_Cucumber_BDD_Test.testNewContactsPage@4cf777e8]" name="tearDown" is-config="true" duration-ms="10752" started-at="2018-08-21T18:55:21Z" finished-at="2018-08-21T18:55:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of CRM application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- freeCRM_Cucumber_BDD_Test.testNewContactsPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
