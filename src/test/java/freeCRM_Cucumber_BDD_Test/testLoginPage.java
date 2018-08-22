@@ -61,6 +61,7 @@ public class testLoginPage extends freeCRMBase{
 			loginpage=homepage.clickLogout();
 			if (loginpage != null){
 				Reporter.log("Logout is successful",true);
+				System.out.println("logout is successful");
 			}else{
 				Reporter.log("Logout is NOT successful",true);
 				Assert.fail();
